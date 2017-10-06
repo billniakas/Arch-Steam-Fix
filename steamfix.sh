@@ -1,6 +1,6 @@
 #!/bin/bash
 sleep 1
-if [ ! -d "~/.local/share/Steam" ];
+if [ ! -d "$HOME/.local/share/Steam" ];
 then
 	echo "No Steam Folder Present"
 else
